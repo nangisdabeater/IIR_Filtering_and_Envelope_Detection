@@ -71,7 +71,7 @@ Prerequisites:
 
 MATLAB 2025a (or compatible versions).
 
-Signal Processing Toolbox (Required for cheby1 and filtfilt functions).
+Signal Processing Toolbox (Required for `cheby1` and `filtfilt` functions).
 
 Installation & Usage:
 
