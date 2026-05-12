@@ -77,8 +77,8 @@ Installation & Usage:
 
 1. Clone this repository:
 
-Bash
-git clone [https://github.com/your-username/ir-remote-dsp.git](https://github.com/your-username/ir-remote-dsp.git)
+   ```bash
+   git clone [https://github.com/your-username/ir-remote-dsp.git](https://github.com/your-username/ir-remote-dsp.git)
 
 2. Open MATLAB and navigate to the cloned directory.
 
