@@ -32,9 +32,9 @@ Dự án này tập trung vào việc mô phỏng toàn bộ chu trình truyền
    git clone [https://github.com/your-username/ir-remote-dsp.git](https://github.com/your-username/ir-remote-dsp.git)
 2. Mở MATLAB và trỏ thư mục hiện tại (Current Folder) về thư mục vừa clone.
 
-3. Mở và chạy file code_matlab.m:
+3. Mở và chạy file `code_matlab.m`:
 
-Gõ lệnh run('code_matlab.m') trong Command Window hoặc nhấn nút Run trên giao diện.
+Gõ lệnh `run('code_matlab.m')` trong Command Window hoặc nhấn nút Run trên giao diện.
 
 4. Quan sát kết quả trên Command Window (Bit gốc, Bit thu, BER) và phân tích biểu đồ 6 bước xử lý tín hiệu.
 
@@ -82,8 +82,8 @@ git clone [https://github.com/your-username/ir-remote-dsp.git](https://github.co
 
 2. Open MATLAB and navigate to the cloned directory.
 
-3. Run the main script code_matlab.m:
+3. Run the main script `code_matlab.m`:
 
-Type run('code_matlab.m') in the Command Window or click the Run button.
+Type `run('code_matlab.m')` in the Command Window or click the Run button.
 
 4. Check the Command Window for terminal outputs (Original bits, Recovered bits, BER) and analyze the generated 6-subplot figure detailing the signal at each DSP stage.
