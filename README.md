@@ -1,6 +1,4 @@
-# 📡 IR Remote Control Signal Detection (Phát hiện tín hiệu điều khiển từ xa)
-
-🌎 **[English Version Below](#-english-version)**
+# 📡 IIR Filtering and Envelope Detection for IR Signals (Lọc IIR và phát hiện đường biên bao cho tín hiệu hồng ngoại)
 
 ## 🇻🇳 Tiếng Việt
 
@@ -32,13 +30,13 @@ Dự án này tập trung vào việc mô phỏng toàn bộ chu trình truyền
 1. Clone repository này về máy:
    ```bash
    git clone [https://github.com/your-username/ir-remote-dsp.git](https://github.com/your-username/ir-remote-dsp.git)
-Mở MATLAB và trỏ thư mục hiện tại (Current Folder) về thư mục vừa clone.
+2. Mở MATLAB và trỏ thư mục hiện tại (Current Folder) về thư mục vừa clone.
 
-Mở và chạy file code_matlab.m:
+3. Mở và chạy file code_matlab.m:
 
 Gõ lệnh run('code_matlab.m') trong Command Window hoặc nhấn nút Run trên giao diện.
 
-Quan sát kết quả trên Command Window (Bit gốc, Bit thu, BER) và phân tích biểu đồ 6 bước xử lý tín hiệu.
+4. Quan sát kết quả trên Command Window (Bit gốc, Bit thu, BER) và phân tích biểu đồ 6 bước xử lý tín hiệu.
 
 🇬🇧 English Version
 📖 Introduction
@@ -77,14 +75,15 @@ Signal Processing Toolbox (Required for cheby1 and filtfilt functions).
 
 Installation & Usage:
 
-Clone this repository:
+1. Clone this repository:
 
 Bash
 git clone [https://github.com/your-username/ir-remote-dsp.git](https://github.com/your-username/ir-remote-dsp.git)
-Open MATLAB and navigate to the cloned directory.
 
-Run the main script code_matlab.m:
+2. Open MATLAB and navigate to the cloned directory.
+
+3. Run the main script code_matlab.m:
 
 Type run('code_matlab.m') in the Command Window or click the Run button.
 
-Check the Command Window for terminal outputs (Original bits, Recovered bits, BER) and analyze the generated 6-subplot figure detailing the signal at each DSP stage.
+4. Check the Command Window for terminal outputs (Original bits, Recovered bits, BER) and analyze the generated 6-subplot figure detailing the signal at each DSP stage.
