@@ -38,11 +38,11 @@ Gõ lệnh `run('code_matlab.m')` trong Command Window hoặc nhấn nút Run tr
 
 4. Quan sát kết quả trên Command Window (Bit gốc, Bit thu, BER) và phân tích biểu đồ 6 bước xử lý tín hiệu.
 
-### 🇬🇧 English Version
-📖 Introduction
+## 🇬🇧 English Version
+### 📖 Introduction
 This project is an academic simulation of the transmission, reception, and digital signal processing (DSP) of an infrared (IR) remote control signal. Remote commands are digital data streams modulated onto a 38kHz carrier wave to mitigate environmental optical interference. Using MATLAB, this system applies core DSP techniques to successfully extract the original command sequence from a heavily distorted, noisy signal.
 
-⚙️ System Parameters
+### ⚙️ System Parameters
 Sampling Rate (fs): 1 MHz
 
 Carrier Frequency (fc): 38 kHz
@@ -53,7 +53,7 @@ Data Format: 32-bit random sequence (OOK Modulation)
 
 Noise Simulation: AWGN (8dB SNR) & Ambient Light Noise (50Hz/120Hz)
 
-🚀 Signal Processing Pipeline
+### 🚀 Signal Processing Pipeline
 Baseband Generation: A 32-bit random binary sequence is converted into an ideal rectangular pulse wave.
 
 OOK Modulation: The baseband signal is multiplied by a 38kHz carrier wave.
@@ -66,7 +66,7 @@ Envelope Detection: Full-wave rectification followed by a 5kHz low-pass filter i
 
 Data Recovery: A dynamic decision threshold (50% of the maximum envelope amplitude) is used to evaluate the average energy per bit, determining the logic level and calculating the Bit Error Rate (BER).
 
-💻 Getting Started
+### 💻 Getting Started
 Prerequisites:
 
 MATLAB 2025a (or compatible versions).
