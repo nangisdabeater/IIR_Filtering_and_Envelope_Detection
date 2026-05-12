@@ -38,7 +38,7 @@ Gõ lệnh run('code_matlab.m') trong Command Window hoặc nhấn nút Run trê
 
 4. Quan sát kết quả trên Command Window (Bit gốc, Bit thu, BER) và phân tích biểu đồ 6 bước xử lý tín hiệu.
 
-🇬🇧 English Version
+### 🇬🇧 English Version
 📖 Introduction
 This project is an academic simulation of the transmission, reception, and digital signal processing (DSP) of an infrared (IR) remote control signal. Remote commands are digital data streams modulated onto a 38kHz carrier wave to mitigate environmental optical interference. Using MATLAB, this system applies core DSP techniques to successfully extract the original command sequence from a heavily distorted, noisy signal.
 
